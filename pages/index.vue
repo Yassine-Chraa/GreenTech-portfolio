@@ -89,7 +89,7 @@
             <h3>Explorer les produits</h3>
           </div>
           <VueSlickCarousel v-bind="settings">
-            <div class="produit" v-for="(produit, ind) in produits" :key="ind" style="height:410px">
+            <div class="produit" v-for="(produit, ind) in produits" :key="ind">
               <div class="card">
                 <div class="card-body">
                   <h4 class="card-title">{{ produit.nom }}</h4>
