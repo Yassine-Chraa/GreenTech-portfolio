@@ -67,15 +67,9 @@ h4 {
   color: #a6572f;
   font-weight: 500;
 }
-#services,
 #produits,
 #contact {
   padding-top: 180px;
-}
-#services .service {
-  background-color: unset;
-  border: unset;
-  text-align: center;
 }
 #produits .produit {
   padding-left: 8px;
@@ -119,36 +113,6 @@ h4 {
 #produits .card img:hover {
   transform: scale(1.1);
   transition: transform 0.5s;
-}
-#services .service img {
-  height: 250px;
-  border-radius: 12px;
-}
-#services .service .card-body {
-  position: absolute;
-  background-color: #fff;
-  bottom: -37px;
-  width: 85%;
-  left: 50%;
-  transform: translateX(-50%);
-  border-radius: 12px;
-  padding: unset;
-}
-#services .service .card-body h4 {
-  transform: translateY(-25%);
-}
-#services .service .card-body .service-icon {
-  background-color: rgb(238, 179, 18);
-  font-size: 2em;
-  color: #fff;
-  padding: 10px 8px;
-  position: relative;
-  top: -20%;
-  width: min-content;
-  width: 25%;
-  margin: auto;
-  transform: translateY(-50%);
-  border-radius: 12px;
 }
 .main {
   width: 100%;
@@ -228,12 +192,8 @@ h4 {
     left: -2%;
     width: 50%;
   }
-  #services > .row {
-    margin-left: 0px;
-    margin-right: 0px;
-  }
-  #services > .row > div {
-    padding-bottom: 80px;
+  #produit .card .card-body{
+    height: 220px;
   }
 }
 /***** Medium Screen *****/
@@ -262,13 +222,9 @@ h4 {
     padding-left: 8px !important;
     padding-right: 8px !important;
   }
-  #services,
   #produits,
   #contact {
     padding-top: 120px;
-  }
-  #services > .row > div {
-    padding-bottom: 64px;
   }
   .footer p {
     font-size: 15px;
@@ -316,24 +272,15 @@ h4 {
   #about .img-thumbnail {
     height: 260px;
   }
-  #services > .row {
-    margin: unset;
-  }
-  #services > .row > div {
-    padding-bottom: 64px;
-    padding-left: 6px;
-    padding-right: 6px;
-  }
-  #services .service img {
-    height: 225px;
-    border-radius: 6px;
-  }
   #produits .produit {
     padding-left: 8px;
     padding-right: 8px;
   }
   #produits .card img {
     height: 275px;
+  }
+  #produit .card .card-body{
+    height: 190px;
   }
   #contact h4 {
     margin-top: 16px;
@@ -352,6 +299,9 @@ h4 {
     margin-right: 15px;
   }
   /***** END *****/
+  #produit .card .card-body{
+    height: 150px;
+  }
 }
 @media only screen and (max-width: 400px) {
   h1 {
@@ -360,13 +310,9 @@ h4 {
   h2 {
     font-size: 1.7em;
   }
-  #services,
   #produits,
   #contact {
     padding-top: 128px;
-  }
-  #services .service img {
-    height: 200px;
   }
   #produits .card img {
     height: 250px;
