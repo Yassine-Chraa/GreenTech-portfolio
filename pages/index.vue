@@ -102,7 +102,7 @@
                   <div>
                     <img
                       class="card-img-bottom"
-                      src="~/assets/img/produit-1.jpg"
+                      :src="require('~/assets/img/'+produit.img)"
                       alt="Card image cap"
                     />
                   </div>
@@ -307,30 +307,38 @@ export default {
         {
           nom: 'MIX EXPERT',
           desc: 'MIX EXPERT est un produit à base de micro-éléments spécifiques, résout les carences en nutriments',
+          img: 'mix-expert.jpeg'
         },
         {
           nom: 'CALEXPERT',
           desc: 'CALEXPERT EST formulé pour résoudre les carences en calcium dans tous les types de cultures',
+          img: 'cal-expert.jpeg'
         },
         {
           nom: 'K35 EXPERT',
           desc: 'K35 EXPERT est un fertilisant solide a base de potassium développé pour favoriser la maturation homogène des fruits',
+          img: 'k35-expert.jpeg'
         },
         {
           nom: 'TERRA EXPERT',
           desc: 'TERRA EXPERT est un produit à base de potassium, résout les carences dans le macronutriment de potassium',
+          img: 'terra-expert.jpeg'
         },
         {
           nom: 'GROW UP EXPERT',
           desc: 'GROW UP EXPERT est un fertilisant mineral a base du calcium.Il peut etre appliqué à la fois en mode foliare ou par irrigation',
+          img: 'grow-expert.jpeg'
         },
         {
           nom: 'KOLOR EXPERT',
           desc: 'KOLOR EXPERT est un produit à base de potassium extrement efficace qui permet son absorption et sa distribution immédiates',
+          img: 'kolor-expert.jpeg'
         },
+
         {
           nom: 'ROW EXPERT',
           desc: 'ROW EXPERT est un produit pour les cultures extensives pour lutter contre tout type de stress environnemental',
+          img: 'row-expert.jpeg'
         },
       ],
     }

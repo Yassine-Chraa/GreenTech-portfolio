@@ -88,7 +88,7 @@ h4 {
 #produits .card {
   border-radius: unset;
 }
-#produits .card-body{
+#produits .card-body {
   height: 210px;
 }
 #produits .card .card-body .card-text {
@@ -287,6 +287,11 @@ h4 {
   }
   h4 {
     font-size: 1.3em;
+  }
+  #header,
+  .navbar {
+    padding-left: 24px;
+    padding-right: 24px;
   }
   /*****  *****/
   .navbar-brand {
