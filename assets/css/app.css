@@ -1,0 +1,410 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&display=swap');
+
+@import 'vue-slick-carousel/dist/vue-slick-carousel.css';
+@import 'vue-slick-carousel/dist/vue-slick-carousel-theme.css';
+
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: 'Manrope', sans-serif;
+  font-size: 16px;
+}
+ul {
+  padding-left: 0;
+  list-style: none;
+}
+h2,
+h3,
+h4 {
+  font-weight: 600;
+}
+h2 {
+  color: rgb(202, 163, 57);
+  font-family: 'Covered By Your Grace', cursive;
+  font-size: 2em;
+}
+h3 {
+  font-size: 2.2em;
+}
+h4 {
+  font-size: 1.35em;
+}
+.text {
+  font-size: 1.15em;
+  font-weight: 300;
+  margin-left: 4px;
+}
+.link {
+  margin-left: 4px;
+  border-radius: 8px;
+  margin-top: 8px;
+}
+/**** Modification in vue-slick-carousel ****/
+.slick-arrow::before {
+  color: #1d2226;
+}
+/***** End *****/
+.btn {
+  font-size: 1em;
+}
+.form-control {
+  font-size: 1em;
+}
+#about {
+  padding-top: 64px;
+}
+#about .img-float {
+  width: 50%;
+  border-radius: 50%;
+  position: absolute;
+  bottom: -16%;
+  left: -6%;
+}
+#about .p-style1 {
+  font-size: 1.375em;
+  color: #a6572f;
+  font-weight: 500;
+}
+#services,
+#produits,
+#contact {
+  padding-top: 180px;
+}
+#services .service {
+  background-color: unset;
+  border: unset;
+  text-align: center;
+}
+#produits .produit {
+  padding-left: 8px;
+  padding-right: 8px;
+}
+#produits h4 {
+  font-size: 1em;
+  font-weight: 700;
+}
+#produits .card {
+  border-radius: unset;
+}
+#produits .card-body{
+  height: 178px;
+}
+#produits .card .card-body .card-text {
+  opacity: 0.8;
+}
+#produits .card .card-body .card-text span {
+  font-weight: 700;
+  color: #3d6f3b;
+}
+#produits .card div:nth-child(2) {
+  position: relative;
+}
+#produits .card .categorie {
+  position: absolute;
+  background-color: #1d2226;
+  padding: 6px 8px;
+  transform: translate(25%, -50%);
+  z-index: 99;
+}
+#produits .card div:nth-child(2) div {
+  overflow: hidden;
+}
+#produits .card img {
+  height: 250px;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+}
+#produits .card img:hover {
+  transform: scale(1.1);
+  transition: transform 0.5s;
+}
+#services .service img {
+  height: 250px;
+  border-radius: 12px;
+}
+#services .service .card-body {
+  position: absolute;
+  background-color: #fff;
+  bottom: -37px;
+  width: 85%;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 12px;
+  padding: unset;
+}
+#services .service .card-body h4 {
+  transform: translateY(-25%);
+}
+#services .service .card-body .service-icon {
+  background-color: rgb(238, 179, 18);
+  font-size: 2em;
+  color: #fff;
+  padding: 10px 8px;
+  position: relative;
+  top: -20%;
+  width: min-content;
+  width: 25%;
+  margin: auto;
+  transform: translateY(-50%);
+  border-radius: 12px;
+}
+.main {
+  width: 100%;
+  background-color: #fee;
+}
+#contact {
+  padding-bottom: 96px;
+}
+#contact form .row > div {
+  padding-bottom: 16px;
+}
+#contact form .row > div .form-control {
+  border-color: #b5c5d5;
+}
+#contact form .row > div .form-control {
+  box-shadow: unset;
+}
+#contact div:nth-child(2) h4 {
+  font-size: 1.625em;
+  margin-bottom: 28px;
+}
+#contact div:nth-child(1) ul {
+  font-size: 0.9em;
+  padding-top: 12px;
+}
+#contact div:nth-child(1) ul li {
+  margin-bottom: 8px;
+}
+.footer {
+  width: 100%;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  background-color: #1f1e17;
+  color: #fff;
+}
+.footer .social-media {
+  display: flex;
+  margin-bottom: 0;
+}
+.footer p {
+  margin-bottom: 0;
+  text-align: right;
+}
+.footer .social-media li a {
+  padding: 8px;
+  margin-right: 16px;
+  color: inherit;
+}
+
+/***** Large Screen *****/
+@media only screen and (min-width: 992px) {
+  #header,
+  .navbar {
+    padding-left: 48px;
+    padding-right: 48px;
+  }
+  .main {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+}
+@media only screen and (max-width: 991px) {
+  body {
+    font-size: 15px !important;
+  }
+  #header,
+  .navbar {
+    padding-left: 48px;
+    padding-right: 48px;
+  }
+  .main {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+  #about .img-float {
+    bottom: 20%;
+    left: -2%;
+    width: 50%;
+  }
+  #services > .row {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  #services > .row > div {
+    padding-bottom: 80px;
+  }
+}
+/***** Medium Screen *****/
+@media only screen and (max-width: 767px) {
+  /***** *****/
+  .img-thumbnail {
+    padding: unset;
+    background-color: unset;
+    border: unset;
+  }
+  /***** END *****/
+  #header > .row > .bg {
+    position: relative;
+  }
+  #header > .row > .bg > img {
+    position: absolute;
+    top: 65%;
+    transform: translateY(-50%);
+  }
+  #about .img-thumbnail {
+    border-radius: 8px !important;
+    height: 300px;
+    width: 100%;
+  }
+  #about > div:nth-child(2) > div {
+    padding-left: 8px !important;
+    padding-right: 8px !important;
+  }
+  #services,
+  #produits,
+  #contact {
+    padding-top: 120px;
+  }
+  #services > .row > div {
+    padding-bottom: 64px;
+  }
+  .footer p {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  body {
+    font-size: 14px !important;
+  }
+  h2 {
+    font-size: 1.5em;
+  }
+  h3 {
+    font-size: 1.8em;
+  }
+  h4 {
+    font-size: 1.3em;
+  }
+  /*****  *****/
+  .navbar-brand {
+    font-size: 1.25em;
+  }
+  .slick-slider {
+    margin-left: 8px;
+    margin-right: 8px;
+  }
+  /***** END *****/
+  .main {
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+  #about {
+    padding-top: 32px;
+  }
+  #about > div:nth-child(1) {
+    display: flex;
+    justify-content: center;
+  }
+  #about .img-thumbnail {
+    height: 260px;
+  }
+  #services > .row {
+    margin: unset;
+  }
+  #services > .row > div {
+    padding-bottom: 64px;
+    padding-left: 6px;
+    padding-right: 6px;
+  }
+  #services .service img {
+    height: 225px;
+    border-radius: 6px;
+  }
+  #produits .produit {
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+  #produits .card img {
+    height: 275px;
+  }
+  #contact h4 {
+    margin-top: 16px;
+    margin-bottom: 16px !important;
+  }
+  .footer p,
+  .footer .social-media {
+    font-size: 12px;
+  }
+}
+/***** Mobile *****/
+@media only screen and (max-width: 480px) {
+  /*****  *****/
+  .slick-slider {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  /***** END *****/
+}
+@media only screen and (max-width: 400px) {
+  h1 {
+    font-size: 1.7em;
+  }
+  h2 {
+    font-size: 1.7em;
+  }
+  #services,
+  #produits,
+  #contact {
+    padding-top: 128px;
+  }
+  #services .service img {
+    height: 200px;
+  }
+  #produits .card img {
+    height: 250px;
+  }
+  .footer p,
+  .footer .social-media {
+    font-size: 11px;
+  }
+}
+@media only screen and (max-width: 300px) {
+  body {
+    font-size: 13px !important;
+  }
+  .main {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  /*****  *****/
+  .slick-slider {
+    margin-left: 12px;
+    margin-right: 12px;
+  }
+  /***** END *****/
+  #about .img-thumbnail {
+    height: 230px;
+  }
+  #produits .card img {
+    height: 225px;
+  }
+  /***** *****/
+  .col-xs-12 {
+    flex: 0 0 100%;
+    max-width: 100%;
+    padding-right: 15px !important;
+    padding-left: 15px !important;
+  }
+  /***** END *****/
+}
+@media only screen and (max-width: 250px) {
+  body {
+    font-size: 12px !important;
+  }
+  #produits .card img {
+    height: 190px;
+  }
+}
