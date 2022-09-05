@@ -192,7 +192,7 @@ h4 {
     left: -2%;
     width: 50%;
   }
-  #produit .card .card-body{
+  #produits .card .card-body{
     height: 220px;
   }
 }
@@ -279,7 +279,7 @@ h4 {
   #produits .card img {
     height: 275px;
   }
-  #produit .card .card-body{
+  #produits .card .card-body{
     height: 190px;
   }
   #contact h4 {
@@ -299,7 +299,7 @@ h4 {
     margin-right: 15px;
   }
   /***** END *****/
-  #produit .card .card-body{
+  #produits .card .card-body{
     height: 150px;
   }
 }
