@@ -4,7 +4,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'GreenTech',
+    title: 'GreenTech Consulting',
     htmlAttrs: {
       lang: 'en',
     },
