@@ -121,6 +121,16 @@ h4 {
 #contact {
   padding-bottom: 96px;
 }
+#contact .contact-details{
+  flex-wrap: nowrap;
+}
+#contact .contact-details >div:nth-child(1){
+  margin-right: 24px;
+  margin-left: 16px
+}
+#contact .contact-details >div >div{
+  margin-bottom: 8px;
+}
 #contact form .row > div {
   padding-bottom: 16px;
 }
@@ -133,13 +143,6 @@ h4 {
 #contact div:nth-child(2) h4 {
   font-size: 1.625em;
   margin-bottom: 28px;
-}
-#contact div:nth-child(1) ul {
-  font-size: 0.9em;
-  padding-top: 12px;
-}
-#contact div:nth-child(1) ul li {
-  margin-bottom: 8px;
 }
 .footer {
   width: 100%;

@@ -98,11 +98,10 @@
                   </p>
                 </div>
                 <div>
-                  <b-badge class="categorie">230DH</b-badge>
                   <div>
                     <img
                       class="card-img-bottom"
-                      :src="require('~/assets/img/'+produit.img)"
+                      :src="require('~/assets/img/' + produit.img)"
                       alt="Card image cap"
                     />
                   </div>
@@ -140,30 +139,25 @@
             <h2>Contact</h2>
             <h3>Laissez un message</h3>
             <p>
-              Curabitur mollis bibendum luctus. Duis suscipit vitae dui sed
-              suscipit.Curabitur mollis bibendum luctus. Duis suscipit vitae dui
-              sed suscipit.
+              Pour demander des informations sur nos produits ou consulter.
             </p>
-            <ul>
-              <li>
-                <fa :icon="['fa-solid', 'phone']" style="margin-right: 16px" />
-                <span>0664142715</span>
-              </li>
-              <li>
-                <fa
-                  :icon="['fa-solid', 'envelope']"
-                  style="margin-right: 16px"
-                />
-                <span>yassine.chraa@gmail.com</span>
-              </li>
-              <li>
-                <fa
-                  :icon="['fa-solid', 'location-dot']"
-                  style="margin-right: 16px"
-                />
-                <span>201 Oak Street Building 27 Manchester, USA</span>
-              </li>
-            </ul>
+            <div class="row contact-details">
+              <div>
+                <div><fa :icon="['fa-solid', 'phone']" /></div>
+                <div><fa :icon="['fa-solid', 'envelope']" /></div>
+                <div><fa :icon="['fa-solid', 'location-dot']" /></div>
+              </div>
+              <div>
+                <div><span>0619490388</span></div>
+                <div><span>Greenexperteam@gmail.com</span></div>
+                <div>
+                  <span
+                    >magasin 4 Residence Med Reda Av Rabat Route IFRANE,Imouzer
+                    KANDER</span
+                  >
+                </div>
+              </div>
+            </div>
           </b-col>
           <b-col cols="12" md="7">
             <h4></h4>
@@ -307,38 +301,38 @@ export default {
         {
           nom: 'MIX EXPERT',
           desc: 'MIX EXPERT est un produit à base de micro-éléments spécifiques, résout les carences en nutriments',
-          img: 'mix-expert.jpeg'
+          img: 'mix-expert.jpeg',
         },
         {
           nom: 'CALEXPERT',
           desc: 'CALEXPERT EST formulé pour résoudre les carences en calcium dans tous les types de cultures',
-          img: 'cal-expert.jpeg'
+          img: 'cal-expert.jpeg',
         },
         {
           nom: 'K35 EXPERT',
           desc: 'K35 EXPERT est un fertilisant solide a base de potassium développé pour favoriser la maturation homogène des fruits',
-          img: 'k35-expert.jpeg'
+          img: 'k35-expert.jpeg',
         },
         {
           nom: 'TERRA EXPERT',
           desc: 'TERRA EXPERT est un produit à base de potassium, résout les carences dans le macronutriment de potassium',
-          img: 'terra-expert.jpeg'
+          img: 'terra-expert.jpeg',
         },
         {
           nom: 'GROW UP EXPERT',
           desc: 'GROW UP EXPERT est un fertilisant mineral a base du calcium.Il peut etre appliqué à la fois en mode foliare ou par irrigation',
-          img: 'grow-expert.jpeg'
+          img: 'grow-expert.jpeg',
         },
         {
           nom: 'KOLOR EXPERT',
           desc: 'KOLOR EXPERT est un produit à base de potassium extrement efficace qui permet son absorption et sa distribution immédiates',
-          img: 'kolor-expert.jpeg'
+          img: 'kolor-expert.jpeg',
         },
 
         {
           nom: 'ROW EXPERT',
           desc: 'ROW EXPERT est un produit pour les cultures extensives pour lutter contre tout type de stress environnemental',
-          img: 'row-expert.jpeg'
+          img: 'row-expert.jpeg',
         },
       ],
     }
