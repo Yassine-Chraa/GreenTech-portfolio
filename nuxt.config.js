@@ -18,6 +18,7 @@ export default {
       },
       { name: 'format-detection', content: 'telephone=no' },
       { name: 'robots', content: 'noindex' },
+      { name: 'google-site-verification', content: 'Ura0J-M7wI0rFJF90B4mCqnDpJGD0rncG5llwg67sgo' },
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
   },
