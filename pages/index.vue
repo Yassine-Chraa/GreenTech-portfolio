@@ -72,12 +72,13 @@
               <h2>A PROPOS</h2>
               <h3>Produits phytosantaires</h3>
               <p class="p-style1">
-                GREENTECH is the largest global organic farm.
+                Société de vente des produits phytosanitaires et de consultation
               </p>
               <p style="font-weight: 500; opacity: 0.7">
-                There are many variations of passages of lorem ipsum available
-                but the majority have suffered alteration in some form by
-                injected humor or random word which don’t look even.
+                Notre société se spécialise dans la vente de produits phytosanitaires et propose des services de consultation agricole. 
+                Nous fournissons une gamme complète de solutions pour protéger les cultures des maladies,
+                ravageurs et mauvaises herbes. Notre équipe d'experts offre des conseils personnalisés et 
+                promeut des pratiques agricoles durables.
               </p>
               <!--<b-btn href="#" class="link">Découvrir plus</b-btn>-->
             </div></b-col
